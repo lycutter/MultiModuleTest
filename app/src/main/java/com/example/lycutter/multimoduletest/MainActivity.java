@@ -25,8 +25,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 ARouter.getInstance().build("/secondview/testActivity").navigation();
-                finish();
-//                Toast.makeText(MainActivity.this, "点击成功", Toast.LENGTH_SHORT).show();
             }
         });
     }
